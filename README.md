@@ -12,7 +12,6 @@ The following datasets were used to train, validate, and test the models.
 | Dataset | Link    |
 | :---:   | :---: | 
 | Facial Expression Recognition 2013 | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
-| :---:   | :---: | 
 | AffectNet | http://mohammadmahoor.com/affectnet/  |
 | :---:   | :---: | 
 | IMDB | https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/  |
