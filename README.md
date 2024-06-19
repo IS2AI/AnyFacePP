@@ -9,10 +9,39 @@ pip install ultralytics
 ```
 The following datasets were used to train, validate, and test the models.
 
-| Attempt | [#1 ](https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data)   | 
-| Facial Expression Recognition 2013 | [:---:](http://mohammadmahoor.com/affectnet/) | 
-| IMDB |  |
-
 | Dataset | Link    |
 | :---:   | :---: | 
-| Facial Expression Recognition 2013 | (https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data)  |
+| Facial Expression Recognition 2013 | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+| :---:   | :---: | 
+| AffectNet | http://mohammadmahoor.com/affectnet/  |
+| :---:   | :---: | 
+| IMDB | https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/  |
+| :---:   | :---: | 
+| UTKFace | https://susanqq.github.io/UTKFace/  |
+| :---:   | :---: | 
+| Adience | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+| :---:   | :---: | 
+| MegaAge | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+| :---:   | :---: | 
+| MegaAge Asian | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+| :---:   | :---: | 
+| AFAD Dataset | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+| :---:   | :---: | 
+| AgeDB | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+| :---:   | :---: | 
+| FairFace | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+| :---:   | :---: | 
+| Uniform Age and Gender Dataset (UAGD) | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+| :---:   | :---: | 
+| FG-NET | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+| :---:   | :---: | 
+| RAF-DB (Real-world Affective Faces) | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+| :---:   | :---: | 
+| Wider Face | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+| :---:   | :---: | 
+| AnimalWeb | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+| :---:   | :---: | 
+| iCartoonFace | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+| :---:   | :---: | 
+| TFW | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+
