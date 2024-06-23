@@ -26,8 +26,6 @@ The following datasets were used to train, validate, and test the models.
 | RAF-DB (Real-world Affective Faces) | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  | 
 | Wider Face | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
 | AnimalWeb | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
-| :---:   | :---: | 
 | iCartoonFace | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
-| :---:   | :---: | 
 | TFW | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
 
