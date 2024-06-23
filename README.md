@@ -40,5 +40,6 @@ Annotations in dataset/<dataset_name>/labels/ follow the format used for trainin
 * 'face_type' represents the type of face: 0 - human, 1 - animal, 2 - cartoon.
 * x1, y1, ..., x5, y5 correspond to the coordinates of the left eye, right eye, nose top, left mouth corner, and right mouth corner.
 * 'gender' denotes the gender of the person: 1 - male, 0 - female, 2 - unsure.
-* 'age' indicates the age of the person. emotion specifies one of the 7 basic emotions (0 - angry, 1 - happy, 2 - fear, 3 - sad, 4 - surprise, 5 - disgust, 6 - neutral, -2 - unsure).
+* 'age' indicates the age of the person.
+* 'emotion' specifies one of the 7 basic emotions (0 - angry, 1 - happy, 2 - fear, 3 - sad, 4 - surprise, 5 - disgust, 6 - neutral, -2 - unsure).
 All coordinates are normalized to values between 0 and 1. If a face lacks any of the labels, -1 is used in place of the missing values.
