@@ -64,9 +64,9 @@ You can specify parameters in code:
    threshold_bboxes=0.3 
 
 ## In case of using our work in your research, please cite this paper
-```
 
-#### References
+
+## References
 
 * [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
 
