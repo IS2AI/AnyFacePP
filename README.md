@@ -15,10 +15,10 @@ The following datasets were used to train, validate, and test the models.
 | AffectNet | http://mohammadmahoor.com/affectnet/  |
 | IMDB | https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/  |
 | UTKFace | https://susanqq.github.io/UTKFace/  |
-| Adience | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
-| MegaAge | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
-| MegaAge Asian | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  | 
-| AFAD Dataset | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
+| Adience | https://talhassner.github.io/home/projects/Adience/Adience-data.html |
+| MegaAge | http://mmlab.ie.cuhk.edu.hk/projects/MegaAge/  |
+| MegaAge Asian | http://mmlab.ie.cuhk.edu.hk/projects/MegaAge/  | 
+| AFAD Dataset | https://afad-dataset.github.io/  |
 | AgeDB | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
 | FairFace | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
 | Uniform Age and Gender Dataset (UAGD) | https://www.kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge/data  |
