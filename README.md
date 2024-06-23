@@ -44,3 +44,32 @@ Annotations in `dataset/<dataset_name>/labels/` follow the format used for train
 * `age` indicates the age of the person.
 * `emotion` specifies one of the 7 basic emotions (0 - angry, 1 - happy, 2 - fear, 3 - sad, 4 - surprise, 5 - disgust, 6 - neutral, -2 - unsure).
 All coordinates are normalized to values between 0 and 1. If a face lacks any of the labels, -1 is used in place of the missing values.
+
+## Training Step
+
+
+## Inference
+
+Download the most accurate model, YOLOv8, from [Google Drive](link) and save it. 
+
+
+   ```
+   python3 inference.py
+   ```
+You can specify parameters in code:
+
+   path_to_model="last.pt"
+   path_to_image="ex/RAFdb_test_0003.jpg" #if you want use image from the Internet, replace path with None
+   image_url=None #if you want use image from the Internet, replace None with URL
+   threshold_bboxes=0.3 
+
+## In case of using our work in your research, please cite this paper
+```
+
+#### References
+
+* [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
+
+* [https://github.com/deepcam-cn/yolov5-face](https://github.com/deepcam-cn/yolov5-face)
+
+* [https://github.com/derronqi/yolov7-face](https://github.com/derronqi/yolov7-face)
