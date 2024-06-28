@@ -1,4 +1,4 @@
-# AnyFace++: Deep Multi-Task Multi-Domain Learning for Efficient Face AI
+# AnyFace++: Deep Multi-Task Multi-Domain Learning for Efficient Face AI ([Preprint](https://www.techrxiv.org/doi/full/10.36227/techrxiv.171941826.62465554/v1))
 ![Anyfacepp](https://github.com/IS2AI/AnyFacePP/blob/main/predictions.png)
 ## Installation requirements
 Clone the repository and install all necessary packages. Please ensure that Python>=3.8 with PyTorch>=1.8.
@@ -64,7 +64,9 @@ You can specify parameters in code:
    threshold_bboxes=0.3 
 
 ## In case of using our work in your research, please cite this paper
-
+```
+Tomiris Rakhimzhanova, Askat Kuzdeuov, Huseyin Atakan Varol. AnyFace++: Deep Multi-Task Multi-Domain Learning for Efficient Face AI. TechRxiv. June 26, 2024.
+```
 
 ## References
 
