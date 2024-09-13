@@ -217,6 +217,7 @@ class Results(SimpleClass):
         pred_boxes, show_boxes = self.boxes, boxes
         pred_masks, show_masks = self.masks, masks
         pred_probs, show_probs = self.probs, probs
+        mtl=self.mtl
         annotator = Annotator(
             deepcopy(self.orig_img if img is None else img),
             line_width,
@@ -236,11 +237,26 @@ class Results(SimpleClass):
 
         # Plot Detect results
         if pred_boxes and show_boxes:
-            for d in reversed(pred_boxes):
+            for i, d in enumerate(reversed(pred_boxes)):
+                value=len(pred_boxes)-1
                 c, conf, id = int(d.cls), float(d.conf) if conf else None, None if d.id is None else int(d.id.item())
                 name = ('' if id is None else f'id:{id} ') + names[c]
                 label = (f'{name} {conf:.2f}' if conf else name) if labels else None
-                annotator.box_label(d.xyxy.squeeze(), label, color=colors(c, True))
+                if mtl[value-i] is not None:
+                    if name=="human_face":
+                        age=str(int(mtl[value-i][3:4][0]))
+                    else:
+                        age="unsure"
+                    pred_GEN=mtl[value-i][0:3]
+                    class_GEN = np.argmax(pred_GEN.cpu())
+                    class_labels_GEN = ['female', 'male', 'unsure']
+                    predicted_class_GEN = class_labels_GEN[class_GEN]
+                    pred_EM=mtl[value-i][4:]
+                    class_EM = np.argmax(pred_EM.cpu())
+                    class_labels_EM = ['angry', 'happy', 'fear', 'sad', 'surprise', 'disgust', 'neutral','unsure']
+                    predicted_class_EM = class_labels_EM[class_EM]
+
+                annotator.box_label_mtl(d.xyxy.squeeze(),age,predicted_class_EM,predicted_class_GEN, label, color=colors(c, True))
 
         # Plot Classify results
         if pred_probs is not None and show_probs:
