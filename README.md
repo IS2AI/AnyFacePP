@@ -64,10 +64,22 @@ Download the most accurate model, YOLOv8, from [Google Drive](https://drive.goog
    ```
 You can specify parameters in code:
 
-   path_to_model="last.pt"
-   path_to_image="ex/RAFdb_test_0003.jpg" #if you want use image from the Internet, replace path with None
+   path_to_model= path to the model
+   path_to_image= path to the image location #if you want use image from the Internet, replace path with None
    image_url=None #if you want use image from the Internet, replace None with URL
    threshold_bboxes=0.3 
+
+## Inference in real-time
+
+Please use this code to run a model in real-time detection:
+   ```
+   python3 inference_real.py
+   ```
+You can specify parameters in code:
+path_to_model= path to the model
+
+You can specify you and confidence in the following line:
+model.predict(source="0",show=True,iou=0.2,conf=0.6, device="cuda") 
 
 ## In case of using our work in your research, please cite this paper
 ```
