@@ -1,9 +1,9 @@
 import os
 os.environ["OMP_NUM_THREADS"]='2'
-import torch
 
 from ultralytics import YOLO
 # Load a model
-model = YOLO('last.pt')  # build a new model from YAML
+model = YOLO('yolov8m-pose.yaml')  # build a new model from YAML
+
 # Train the model
-model.train(data='dataset.yaml', epochs=200, imgsz=640, batch=36, device=[2,1], resume=True)
+model.train(data='exp.yaml', epochs=300, imgsz=640, batch=1, device="cpu")
