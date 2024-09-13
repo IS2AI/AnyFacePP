@@ -1,5 +1,6 @@
 # AnyFace++: Deep Multi-Task Multi-Domain Learning for Efficient Face AI ([Preprint](https://www.techrxiv.org/doi/full/10.36227/techrxiv.171941826.62465554/v1))
 ![Anyfacepp](https://github.com/IS2AI/AnyFacePP/blob/main/predictions.png)
+Please clone our repository, even if you already have the original Yolov8 files. Our model will not function properly due to significant modifications in the code.
 ## Installation requirements
 Clone the repository and install all necessary packages. Please ensure that Python>=3.8 with PyTorch>=1.8.
 ```
