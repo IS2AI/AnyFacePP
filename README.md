@@ -53,7 +53,7 @@ All coordinates are normalized to values between 0 and 1. If a face lacks any of
 
 ## Inference
 
-Download the most accurate model, YOLOv8, from [Google Drive](link) and save it. 
+Download the most accurate model, YOLOv8, from [Google Drive](https://drive.google.com/drive/folders/1xOpe26HvIjX2VCLNQmMvecmqHVYniPNM?usp=sharing) and save it. 
 
 
    ```
