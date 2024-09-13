@@ -61,7 +61,7 @@ def test(image_path, image_url, threshold_bboxes, iou, show, save_predictions=Fa
         image = cv2.imread(image_path)
 
     # Run the YOLO model for predictions
-    results = model.predict(source=image, imgsz=640, conf=threshold_bboxes, iou=iou, device='cpu')
+    results = model.predict(source=image, imgsz=640, conf=threshold_bboxes, iou=iou, device='cuda')
     result = results[0].cpu().numpy()
     boxes = result.boxes.boxes
     H, W, _ = image.shape
