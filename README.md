@@ -49,7 +49,7 @@ Annotations in `dataset/<dataset_name>/labels/` follow the format used for train
 All coordinates are normalized to values between 0 and 1. If a face lacks any of the labels, -1 is used in place of the missing values.
 
 ## Training Step
-Run the following command to train the YOLOv5Face model on previously specified datasets. The paths to these datasets are defined in the dataset.yaml file. The model type is selected by the line in the code "yolov8m-pose.yaml". The weights are randomly initialized --weights ''. However, pre-trained weights can be also used by providing an appropriate path.
+Run the following command to train the model on previously specified datasets. The paths to these datasets are defined in the dataset.yaml file. The model type is selected by the line in the code "yolov8m-pose.yaml". The weights are randomly initialized --weights ''. However, pre-trained weights can be also used by providing an appropriate path.
    ```
    python3 train.py
    ```
