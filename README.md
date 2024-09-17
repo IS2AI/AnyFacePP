@@ -1,4 +1,4 @@
-# AnyFace++: Deep Multi-Task Multi-Domain Learning for Efficient Face AI ([Preprint](https://www.techrxiv.org/doi/full/10.36227/techrxiv.171941826.62465554/v1))
+# AnyFace++: Deep Multi-Task Multi-Domain Learning for Efficient Face AI ([Paper](https://www.mdpi.com/1424-8220/24/18/5993))
 ![Anyfacepp](https://github.com/IS2AI/AnyFacePP/blob/main/predictions.png)
 
 ## Installation requirements
@@ -83,7 +83,19 @@ model.predict(source="0",show=True,iou=0.2,conf=0.6, device="cuda")
 
 ## In case of using our work in your research, please cite this paper
 ```
-Tomiris Rakhimzhanova, Askat Kuzdeuov, Huseyin Atakan Varol. AnyFace++: Deep Multi-Task Multi-Domain Learning for Efficient Face AI. TechRxiv. June 26, 2024.
+@Article{s24185993,
+AUTHOR = {Rakhimzhanova, Tomiris and Kuzdeuov, Askat and Varol, Huseyin Atakan},
+TITLE = {AnyFace++: Deep Multi-Task, Multi-Domain Learning for Efficient Face AI},
+JOURNAL = {Sensors},
+VOLUME = {24},
+YEAR = {2024},
+NUMBER = {18},
+ARTICLE-NUMBER = {5993},
+URL = {https://www.mdpi.com/1424-8220/24/18/5993},
+ISSN = {1424-8220},
+DOI = {10.3390/s24185993}
+}
+
 ```
 
 ## References
