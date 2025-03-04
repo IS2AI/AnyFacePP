@@ -56,7 +56,7 @@ Run the following command to train the model on previously specified datasets. T
 
 ## Inference
 
-Download the most accurate model, YOLOv8, from [Google Drive](https://drive.google.com/drive/folders/1xOpe26HvIjX2VCLNQmMvecmqHVYniPNM?usp=sharing) and save it. 
+Download the most accurate model, YOLOv8, from [Google Drive](https://drive.google.com/drive/folders/14aD7vHhDw4vlx3nNIi0bsW_A9-qOS3BM?usp=sharing) and save it. 
 
 
    ```
